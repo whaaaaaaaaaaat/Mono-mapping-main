@@ -17746,3 +17746,17 @@ Entries:
   id: 1955
   time: '2026-03-03T17:42:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3340
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Ported Wizden #37129. This means many chems that healed damage groups
+        now divide their healing amongst present damage types rather than
+        possible damage types. All credit to EmoGarbage404
+    - type: Tweak
+      message: >-
+        You no longer take a single OD tick of poison damage from injecting a
+        full syringe of bicaridine
+  id: 1956
+  time: '2026-03-03T18:03:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3328
