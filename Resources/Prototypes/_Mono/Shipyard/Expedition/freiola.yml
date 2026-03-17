@@ -7,7 +7,7 @@
 - type: vessel
   id: Freiola
   parent: BaseVessel
-  name: HEC Freiola
+  name: MEC Freiola # MEC = Mikri Engineering Company
   description: A medium-to-large sized expedition ship with chemistry equipment.
   price: 97400 # 81130 * 1.2 rounded
   category: Large
