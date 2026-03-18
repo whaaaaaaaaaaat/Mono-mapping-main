@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: MEC Freira
   description: A medium-to-large sized expedition ship with salvage equipment.
-  price: 86500 # 72049 * 1.2
+  price: 91800 
   category: Large
   group: Expedition
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/freira.yml
