@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: MEC Abunai
   description: A small expeditionary vessel equipped only with the bare necessities. Cheap, frighteningly fast and slow to change directions, this vessel requires the utmost attention.
-  price: 23200 # 17900 * 1.2
+  price: 24000 # 17900 * 1.2
   category: Small
   group: Expedition
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/abunai.yml
