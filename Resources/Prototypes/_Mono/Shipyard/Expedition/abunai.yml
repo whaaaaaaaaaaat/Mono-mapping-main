@@ -1,0 +1,38 @@
+# Author Info
+# GitHub:  whaaaaaaaaaaat
+# Discord: whaat3602
+
+- type: vessel
+  id: Abunai
+  parent: BaseVessel
+  name: MEC Abunai
+  description: A small expeditionary vessel equipped only with the bare necessities. Cheap, frighteningly fast and slow to change directions, this vessel requires the utmost attention.
+  price: 21500 # 17900 * 1.2
+  category: Small
+  group: Expedition
+  shuttlePath: /Maps/_Mono/Shuttles/Expedition/abunai.yml
+  guidebookPage: null
+  class:
+  - Expedition
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Abunai
+  mapName: 'Abunai'
+  mapPath: /Maps/_Mono/Shuttles/Expedition/abunai.yml
+  minPlayers: 0
+  stations:
+    Abunai:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Abunai EXP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
