@@ -19068,3 +19068,10 @@ Entries:
   id: 2100
   time: '2026-03-28T19:04:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3590
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: 'Fixed portstrike being declared roundstart. '
+  id: 2101
+  time: '2026-03-29T02:40:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3595
